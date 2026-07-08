@@ -1,10 +1,18 @@
 # super-enigma
 
-A family of [Claude Agent Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) for web design work — one skill per major visual register, plus a router that classifies a brief and dispatches to the right one(s).
+Nobody asked for this. Nobody fully understands it. It exists anyway.
 
-The four registers map to the archetypes documented by [Web Design Lookbook](https://webdesignlookbook.webflow.io/) (Swiss, Illustrative Pop, Brutalism, Immersive) — this family was built out from studying that taxonomy and noticing where existing tooling stopped short of it.
+Six Claude skills, a router that decides which one to use, and a six-axis table
+that somebody had to write at 3am. Figure out why it works. Figure out why
+you're going to use it too.
 
-## The family
+Technically: it's a family of [Claude Agent Skills](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview) for web design work — one skill per visual register, plus a router that classifies a brief and dispatches to the right one.
+
+The four registers map to the archetypes documented by [Web Design Lookbook](https://webdesignlookbook.webflow.io/) (Swiss, Illustrative Pop, Brutalism, Immersive) — this family came out of studying that taxonomy and noticing where existing tooling fell short of it.
+
+---
+
+## The family (yes, there's a table, calm down)
 
 | Skill | Register | Scope |
 |---|---|---|
